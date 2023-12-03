@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  background-color: #360369;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.container > h1 {
+  font-size: 100px;
+}
+
+.container > button {
+  font-size: 20px;
+  background-color: #fff;
+  padding: 10px 100px;
+  border: none;
+  cursor: pointer;
+}
+
+
+

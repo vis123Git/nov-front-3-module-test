@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.container-weather {
+        display: flex;
+        flex-direction: column;
+  background-color: #360369;
+  color: white;
+  padding: 20px;
+}
+.container-weather button {
+  font-size: 20px;
+  background-color: #270846;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.weather-data {
+  color: #360369;
+  padding: 20px;
+}
+
+.all-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.all-info button {
+  font-size: 20px;
+  background-color: #270846;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
