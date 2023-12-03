@@ -40,7 +40,7 @@ function displayWeatherData(data, userInfo) {
 
   document.getElementById("lat").innerText = `Lat : ${data.lat}`;
   document.getElementById("long").innerText = `Long : ${data.lon}`;
-  document.getElementById("location").innerText = `Time-zone : ${userInfo.city}`;
+  document.getElementById("location").innerText = `Location : ${userInfo.city}`;
   document.getElementById("windspeed").innerText = `Wind speed : ${data.current.wind_speed}kmph`;
   document.getElementById("humidity").innerText = `Humidity : ${data.current.humidity}`;
   document.getElementById("timezone").innerText = `Time-zone : ${userInfo.utc_offset}`;
